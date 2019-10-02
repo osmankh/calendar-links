@@ -1,6 +1,6 @@
 # Generate add to calendar links for Google, iCal and other calendar systems
 
-This repo is forked from OsmanKH/calendar-links repo and modified to fit my needs.
+This repo is forked from Spatie/calendar-links repo and modified to fit my needs.
 
 Using this package you can generate links to add events to calendar systems. Here's a quick example:
 
@@ -53,10 +53,6 @@ echo $link->ics();
 ```
 
 > ⚠️ ICS download links don't work in IE and EdgeHTML-based Edge browsers.
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## Testing
 
