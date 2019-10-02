@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\CalendarLinks\Test;
+namespace OsmanKH\CalendarLinks\Test;
 
 use DateTime;
 use DateTimeZone;
-use Spatie\CalendarLinks\Link;
-use Spatie\Snapshots\MatchesSnapshots;
+use OsmanKH\CalendarLinks\Link;
+use OsmanKH\Snapshots\MatchesSnapshots;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

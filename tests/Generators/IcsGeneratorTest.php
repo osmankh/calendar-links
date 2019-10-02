@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\CalendarLink\Test;
+namespace OsmanKH\CalendarLink\Test;
 
-use Spatie\CalendarLinks\Test\TestCase;
+use OsmanKH\CalendarLinks\Test\TestCase;
 
 class IcsGeneratorTest extends TestCase
 {

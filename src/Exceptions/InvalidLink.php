@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\CalendarLinks\Exceptions;
+namespace OsmanKH\CalendarLinks\Exceptions;
 
 use DateTime;
 use Exception;

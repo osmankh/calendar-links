@@ -1,17 +1,16 @@
 {
-    "name": "spatie/calendar-links",
+    "name": "osmankh/calendar-links",
     "description": "Generate add to calendar links for Google, iCal and other calendar systems",
     "keywords": [
-        "spatie",
+        "osmankh",
         "calendar-links"
     ],
-    "homepage": "https://github.com/spatie/calendar-links",
+    "homepage": "https://github.com/osmankh/calendar-links",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sebastian De Deyne",
-            "email": "sebastian@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Osman KHODER",
+            "email": "osmankhoder7@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\CalendarLinks\\": "src"
+            "OsmanKH\\CalendarLinks\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\CalendarLinks\\Test\\": "tests"
+            "OsmanKH\\CalendarLinks\\Test\\": "tests"
         }
     },
     "scripts": {

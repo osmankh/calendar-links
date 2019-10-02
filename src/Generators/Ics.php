@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\CalendarLinks\Generators;
+namespace OsmanKH\CalendarLinks\Generators;
 
-use Spatie\CalendarLinks\Link;
-use Spatie\CalendarLinks\Generator;
+use OsmanKH\CalendarLinks\Link;
+use OsmanKH\CalendarLinks\Generator;
 
 /**
  * @see https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/

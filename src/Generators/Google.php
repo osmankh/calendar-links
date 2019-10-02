@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\CalendarLinks\Generators;
+namespace OsmanKH\CalendarLinks\Generators;
 
-use Spatie\CalendarLinks\Link;
-use Spatie\CalendarLinks\Generator;
+use OsmanKH\CalendarLinks\Link;
+use OsmanKH\CalendarLinks\Generator;
 
 /**
  * @see https://github.com/InteractionDesignFoundation/add-event-to-calendar-docs/blob/master/services/google.md

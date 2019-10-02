@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\CalendarLinks\Test;
+namespace OsmanKH\CalendarLinks\Test;
 
 use DateTime;
-use Spatie\CalendarLinks\Link;
-use Spatie\CalendarLinks\Exceptions\InvalidLink;
+use OsmanKH\CalendarLinks\Link;
+use OsmanKH\CalendarLinks\Exceptions\InvalidLink;
 
 class LinkTest extends TestCase
 {
