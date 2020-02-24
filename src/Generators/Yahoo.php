@@ -26,7 +26,8 @@ class Yahoo implements Generator
             $utcStartDateTime = (clone $link->from)->setTimezone(new DateTimeZone('UTC'));
             $utcEndDateTime = (clone $link->to)->setTimezone(new DateTimeZone('UTC'));
             $url .= '&st='.$utcStartDateTime->format($dateTimeFormat);
-            $url .= '&et='.$utcEndDateTime->format($dateTimeFormat);
+            $diff = $utcEndDateTime->diff($utcStartDateTime);
+            $url .= '&dur=' . $diff->format("Hi");
         }
 
         if ($link->description) {
